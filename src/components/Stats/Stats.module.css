@@ -1,0 +1,11 @@
+.wrapper {
+  padding-left: 20%;
+}
+
+.stats {
+  display: flex;
+}
+.stats>ul {
+  list-style-type: none;
+  margin: 0;
+}

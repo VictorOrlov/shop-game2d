@@ -6,7 +6,7 @@ const styles = {
   fontSize: '24px',
   lineHeight: '28px',
   textTransform: 'uppercase',
-  marginBottom: '60px'
+  marginBottom: '30px'
 }
 
 const Title = ({children}) => (

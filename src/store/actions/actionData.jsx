@@ -1,5 +1,4 @@
 import { ERROR, LOADING, DATA } from '../types';
-// import axios from 'axios';
 
 export const errorData = bool => {
   return {
@@ -37,16 +36,4 @@ export const fetchData = url => {
       .then(data => dispatch(isData(data)))
       .catch(() => dispatch(errorData(true)))
   };
-
-
-  // return (dispatch) => {
-  //   dispatch(isLoading(true));
-  //   axios
-  //     .get(url)
-  //     .then(response => {
-  //       dispatch(isData(response.data));
-  //       dispatch(isLoading(false));
-  //     })
-  //     .catch(() => dispatch(errorData(true)))
-  // };
 }
