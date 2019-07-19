@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #1C6565;
+  min-width: 1024px;
+  min-height: 768px;
+  padding: 84px 127px;
+}
+.juCo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}

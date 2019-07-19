@@ -1,0 +1,9 @@
+.rectangle {
+  display: flex;
+  flex-flow: column;
+  width: 370px;
+  height: 551px;
+  background-color: #f9e88e;
+  border-radius: 4px;
+  padding: 25px 50px;
+}
