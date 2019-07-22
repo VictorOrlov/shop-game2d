@@ -95,7 +95,7 @@ class Shop extends Component {
           <hr/>
         </form>
         <div >
-          count: {count}
+          Equiepment cost: {count}
         </div>
       </Rectangle>
     );
